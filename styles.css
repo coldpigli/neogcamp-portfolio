@@ -117,3 +117,32 @@ body{
     text-decoration: none;
     color: var(--clr-primary-color);
 }
+
+.footer-section{
+    background-color: var(--clr-primary-color);
+    text-align: center;
+    padding: 2rem;
+}
+.footer-section h3{
+    color: white;
+    padding-bottom: 1.5rem;
+}
+.footer-list{
+    list-style-type: none;
+    padding: 0;
+    
+}
+.footer-links{
+    display: inline;
+    padding: 2rem;
+}
+.footer-links a {
+    text-decoration: none;
+    color: var(--clr-accent-color);
+}
+
+.footer-links img{
+    height: 25px;
+    width: 25px;
+    color: var(--clr-accent-color);
+}

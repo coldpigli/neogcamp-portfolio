@@ -8,14 +8,17 @@
 body{
     font-family: 'Merriweather Sans', sans-serif;
     padding: 0%;
-    margin: 0%;
+    margin: auto;
+    max-width: 85%;
+
 }
 
 .nav-container{
     background-color: var(--clr-primary-color) ;
     margin: auto;
-    max-width: 85%;
+    
     padding: 1.2rem;
+    
 }
 
 .nav-container h2 {
@@ -50,3 +53,25 @@ body{
     color: white;
 }
 
+/*Hero Section*/
+
+.hero{
+    padding-top: 2rem;
+}
+
+.hero img {
+    justify-content: flex-start;
+    max-width: 45%;
+    margin-left: auto;
+    padding: 1.5rem;
+    float: left;
+}
+.hero-content{
+    
+    color: var(--clr-primary-color);
+    text-align: center;
+    font-size: 1.2rem;
+    float: right;
+    margin-top: 9rem;
+    
+}

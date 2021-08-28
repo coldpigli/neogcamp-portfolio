@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&display=swap');
+
+
+:root{
+    --clr-primary-color: #1F2937;
+    --clr-accent-color: #10B981;
+}
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav-container{
+    background-color: var(--clr-primary-color) ;
+    margin: auto;
+    max-width: 85%;
+    padding: 1.2rem;
+}
+
+.nav-container h2 {
+    margin: 0%;
+    color: var(--clr-accent-color);
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.nav-list{
+    list-style-type: none;
+    margin: auto;
+    text-align: right;
+    
+}
+
+.nav-items{
+    display: inline;
+    padding: 0.5rem 2rem;
+
+}
+
+
+
+.nav-links{
+    text-decoration: none;
+    color: var(--clr-accent-color);
+    
+}
+
+.active-link{
+    color: white;
+}
+

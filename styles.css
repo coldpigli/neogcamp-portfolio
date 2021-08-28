@@ -4,6 +4,7 @@
 :root{
     --clr-primary-color: #1F2937;
     --clr-accent-color: #10B981;
+    --clr-primary-color-light: #abb0b6;
 }
 body{
     font-family: 'Merriweather Sans', sans-serif;
@@ -25,7 +26,8 @@ body{
     margin: 0%;
     color: var(--clr-accent-color);
     font-weight: bold;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
 }
 
 .nav-list{
@@ -57,21 +59,61 @@ body{
 
 .hero{
     padding-top: 2rem;
+    display: flex;
 }
 
 .hero img {
-    justify-content: flex-start;
+
+    
     max-width: 45%;
-    margin-left: auto;
     padding: 1.5rem;
-    float: left;
+    flex: 1;
+
+    
 }
 .hero-content{
     
     color: var(--clr-primary-color);
-    text-align: center;
+    text-align: left;
     font-size: 1.2rem;
-    float: right;
+    padding-left: 2.5rem;
     margin-top: 9rem;
+    text-align: center;
+}
+
+.homepage-info-alt{
+    margin-top: 2rem;
+    background-color: var(--clr-primary-color);
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+.homepage-info-alt h2 {
+    color: var(--clr-accent-color);
+}
+.homepage-info{
+    padding: 3rem;
+    text-align: center;
+}
+
+.homepage-info h2 {
+    color: var(--clr-primary-color);
+}
+
+.homepage-info a {
     
+    padding: 0.5rem;
+    background-color: var(--clr-primary-color);
+    border-radius: 1rem;
+    text-decoration: none;
+    color: var(--clr-accent-color);
+}
+
+.homepage-info-alt a {
+    padding: 0.5rem;
+    background-color: var(--clr-accent-color);
+    border-radius: 1rem;
+    text-decoration: none;
+    color: var(--clr-primary-color);
 }

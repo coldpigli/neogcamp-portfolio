@@ -21,6 +21,9 @@ body{
     padding: 1.2rem;
     
 }
+.nav-container a{
+    text-decoration: none;
+}
 
 .nav-container h2 {
     margin: 0%;
@@ -122,6 +125,7 @@ body{
     background-color: var(--clr-primary-color);
     text-align: center;
     padding: 2rem;
+    margin-top: 4rem;
 }
 .footer-section h3{
     color: white;

@@ -110,6 +110,7 @@ body{
     background-color: var(--clr-primary-color);
     border-radius: 1rem;
     text-decoration: none;
+    margin: 0.3rem;
     color: var(--clr-accent-color);
 }
 
@@ -118,6 +119,7 @@ body{
     background-color: var(--clr-accent-color);
     border-radius: 1rem;
     text-decoration: none;
+    margin: 0.3rem;
     color: var(--clr-primary-color);
 }
 

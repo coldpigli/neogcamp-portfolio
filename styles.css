@@ -152,3 +152,43 @@ body{
     width: 25px;
     color: var(--clr-accent-color);
 }
+
+article{
+    text-align: center;
+}
+article h1{
+    padding: 1.2rem;
+}
+
+.blog-item{
+    text-align: center;
+    max-width: 85%;
+    margin: auto;
+    background-color: var(--clr-primary-color);
+    padding: 2rem;
+}
+.blog-item h1 {
+    color:var(--clr-accent-color);
+}
+.blog-item h3{
+    color: white;
+    padding-bottom: 1.3rem;
+}
+.blog-item p{
+    color: var(--clr-primary-color-light);
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+    text-align: left ;
+    
+}
+
+.blog-item a{
+    padding: 0.5rem;
+    background-color: var(--clr-primary-color);
+    border-radius: 1rem;
+    text-decoration: none;
+    margin: 0.3rem;
+    color: var(--clr-accent-color);
+}
+
